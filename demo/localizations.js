@@ -21,11 +21,11 @@ String.toLocaleString({
 			},
 		"en-CA": {
 			"%title": "Canadian English - l10n.js demo",
-			"%info": "You are viewing a Canadian English localisation of this page."
+			"%info": "You are viewing a Canadian English localization of this page."
 		},
 			"en-CA-x-Hixie": {
 					"%title": "Canadian Hixie English - l10n.js demo",
-					"%info": "You are viewing a Canadian Hixie English localisation of this page."
+					"%info": "You are viewing a Canadian Hixie English localization of this page."
 			},
 		"en-AU": {
 			"%title": "Australian English - l10n.js demo",
@@ -78,5 +78,18 @@ String.toLocaleString({
 	"jbo": {
 		"%title": "la'o cme. l10n.js .cme mupli bau le jbobau",
 		"%info": ".i do ca viska lo jbobau xe fanva be lo ti judrysni"
+	},
+	"da": {
+		"%title": "Dansk. Demo af l10n.js",
+		"%info": ".Du ser den Danske oversættelse af denne side"
+	},
+	"he": {
+		"%locale.dir": "rtl",
+		"%title": "עברית - Demo do l10n.js",
+		"%info": "אתה צופה בלוקליזציה לעברית של עמוד זה."
+	},
+	"bg": {
+		"%title": "Български - демо на l10n.js",
+		"%info": "В момента виждате българската версия на тази страница."
 	}
 });
