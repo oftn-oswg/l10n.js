@@ -7,34 +7,18 @@ String.toLocaleString({
 			"%title": "American English - l10n.js demo",
 			"%info": "You are viewing an American English localization of this page."
 		},
-			"en-US-x-Hixie": {
-				"%title": "American Hixie English - l10n.js demo",
-				"%info": "You are viewing an American Hixie English localization of this page."
-			},
 		"en-GB": {
 			"%title": "British English - l10n.js demo",
 			"%info": "You are viewing a British English localisation of this page."
 		},
-			"en-GB-x-Hixie": {
-				"%title": "British Hixie English - l10n.js demo",
-				"%info": "You are viewing a British Hixie English localisation of this page."
-			},
 		"en-CA": {
 			"%title": "Canadian English - l10n.js demo",
 			"%info": "You are viewing a Canadian English localization of this page."
 		},
-			"en-CA-x-Hixie": {
-					"%title": "Canadian Hixie English - l10n.js demo",
-					"%info": "You are viewing a Canadian Hixie English localization of this page."
-			},
 		"en-AU": {
 			"%title": "Australian English - l10n.js demo",
 			"%info": "You are viewing an Australian English localisation of this page."
 		},
-			"en-AU-x-Hixie": {
-				"%title": "Australian Hixie English - l10n.js demo",
-				"%info": "You are viewing an Australian Hixie English localisation of this page."
-			},
 	"pt": {
 		"%title": "Português - Demo do l10n.js",
 		"%info": "Você está vendo uma localização em português desta página."
@@ -71,6 +55,10 @@ String.toLocaleString({
 		"%title": "Norsk - Demo av l10n.js",
 		"%info": "Du ser den norske oversettelsen av denne siden."
 	},
+	"nb": {
+		"%title": "Norsk - Demo av l10n.js",
+		"%info": "Du ser den norske oversettelsen av denne siden."
+	},
 	"ru": {
 		"%title": "Русский - l10n.js демо",
 		"%info": "Вы просматриваете Русскую версию этой страницы."
@@ -91,5 +79,41 @@ String.toLocaleString({
 	"bg": {
 		"%title": "Български - демо на l10n.js",
 		"%info": "В момента виждате българската версия на тази страница."
+	},
+	"zh": {
+		"%title": "中文---l10n.js 演示",
+		"%info": "你在浏览本页面的中文本地化版本。"
+	},
+	"se": {
+		"%title": "Svenska - Demo av l10n.js",
+		"%info": "Du tittar på den svenska översättningen av denna sida"
+	},
+	"tr": {
+		"%title": "Türkçe - l10n.js demo",
+		"%info": "Bu sayfanın Türkçe yerelleştirilmiş halini görüntülüyorsunuz."
+	},
+	"hu": {
+		"%title": "Magyar - l10n.js demo",
+		"%info": "A magyar nyelvű honosítását nézed ennek az oldalnak."
+	},
+	"cs": {
+		"%title": "Čeština - l10n.js demo",
+		"%info": "Prohlížíte si českou lokalizaci stránek."
+	},
+	"ca": {
+		"%title": "Català - l10n.js demo",
+		"%info": "Vostè està veient una versió en català d’aquesta pàgina."
+	},
+	"ja": {
+		"%title": "Japanese - l10n.js デモ",
+		"%info": "日本語にローカライズされたページを見ています。"
+	},
+	"la": {
+		"%title": "Latina - l10n.js demonstratio",
+		"%info":  "prospectas Latinam translationem huius paginae"
+	},
+	"pl": {
+		"%title": "Polski - demo l10n.js",
+		"%info": "Przeglądasz tłumaczenie tej strony na język polski."
 	}
 });

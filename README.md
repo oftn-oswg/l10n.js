@@ -14,17 +14,13 @@ Demo
 
 You can try out the [online demo][1] to see l10n.js in action.
 
-Currently the demo only supports the following locales.
+Currently the demo supports the following locales.
 
 * [English](http://purl.eligrey.com/l10n.js/demo/en)
     * [American English](http://purl.eligrey.com/l10n.js/demo/en-US)
-        * [American Hixie English](http://purl.eligrey.com/l10n.js/demo/en-US-x-Hixie)
     * [British English](http://purl.eligrey.com/l10n.js/demo/en-GB)
-        * [British Hixie English](http://purl.eligrey.com/l10n.js/demo/en-GB-x-Hixie)
     * [Canadian English](http://purl.eligrey.com/l10n.js/demo/en-CA)
-        * [Canadian Hixie English](http://purl.eligrey.com/l10n.js/demo/en-CA-x-Hixie)
     * [Australian English](http://purl.eligrey.com/l10n.js/demo/en-AU)
-        * [Australian Hixie English](http://purl.eligrey.com/l10n.js/demo/en-AU-x-Hixie)
 * [Portuguese](http://purl.eligrey.com/l10n.js/demo/pt)
 * [Spanish](http://purl.eligrey.com/l10n.js/demo/es)
 * [French](http://purl.eligrey.com/l10n.js/demo/fr)
@@ -39,6 +35,13 @@ Currently the demo only supports the following locales.
 * [Danish](http://purl.eligrey.com/l10n.js/demo/da)
 * [Hebrew](http://purl.eligrey.com/l10n.js/demo/he)
 * [Bulgarian](http://purl.eligrey.com/l10n.js/demo/bg)
+* [Simplified Chinese](http://purl.eligrey.com/l10n.js/demo/zh)
+* [Swedish](http://purl.eligrey.com/l10n.js/demo/se)
+* [Turkish](http://purl.eligrey.com/l10n.js/demo/tr)
+* [Hungarian](http://purl.eligrey.com/l10n.js/demo/hu)
+* [Czech](http://purl.eligrey.com/l10n.js/demo/cs)
+* [Catalan](http://purl.eligrey.com/l10n.js/demo/ca)
+* [Japanese](http://purl.eligrey.com/l10n.js/demo/ja)
 
 If you know a language that isn't currently supported in the demo, I encourage you to
 contribute a localization by sending me your own localizations, either [through GitHub][2]
@@ -213,7 +216,7 @@ them) containing their type if they are not functions or return type if they are
     "en-GB": false, // resetting British English localizations
     // Specifying external localization JSON for Japanese:
     // The URL isn't requested unless the user's locale is Japanese
-    "jp": "localizations/jp.json"
+    "ja": "localizations/ja.json"
 })</code></pre>
       </li>
       <li>
@@ -234,18 +237,25 @@ them) containing their type if they are not functions or return type if they are
 ### Fields
 
 <dl>
-  <dt><code>String.<strong title="Object">locale</strong></code></dt>
+  <dt><code>String.<strong title="String">locale</strong></code></dt>
   <dd>
     A configurable string which represents the language code of the locale to use for
     localization. It defaults to the user's own locale.
   </dd>
+  <dt><code>String.<strong title="String">defaultLocale</strong></code></dt>
+  <dd>
+    A configurable string which represents the language code of the default locale to
+    use for localization if no localizations are available in the user's locale. By
+    default this is not configured, and may be ignored if you are using l10n.js for
+    passive-only localizations.
+  </dd>
 </dl>
 
 
-![Tracking image](//in.getclicky.com/212712ns.gif)
+![Tracking image](https://in.getclicky.com/212712ns.gif)
 
   [1]: http://purl.eligrey.com/l10n.js/demo
-  [2]: http://github.com/inbox/new/eligrey
+  [2]: https://github.com/eligrey/l10n.js/edit/master/demo/localizations.js
   [3]: http://purl.eligrey.com/contact
   [4]: http://purl.eligrey.com/github/l10n.js/raw/master/l10n.js
   [5]: http://purl.eligrey.com/github/l10n.js/blob/master/demo/localizations.js
